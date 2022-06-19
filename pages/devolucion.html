@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Devolucion</title>
+       <!--icono de pagina-->
+       <link rel="icon" type="img" href="../assets/icono-m.png"/> 
+       <!--Pagina de estilos-->
+       <link rel="stylesheet" href="../styles/styles.css"/>
+       <!--Tipografia de la pagina-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet"/>
+    <body>
+        <section class="grillaSeis">
+            <header class="header fondo">
+                <img src="../assets/logo-mundosneaker-png.png" class="logo"/>
+                <nav class="nav fondo">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li> 
+                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="../pages/novedades.html">Novedades</a></li>
+                        <li><a href="../pages/galeria.html">Galeria</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                        <li><a href="../pages/devolucion.html">Devolucion</a></li>
+                        <li><a href="../pages/stock.html">Stock</a></li>
+                    </ul>
+                    </nav>
+            </header>
+             <!--Inicio "reglas de devolucion"-->
+             <section class="devolucion" >
+                <h1 class="titulo">Devoluciones</h1>
+                    <h4 class="parrafo">Las devoluciones se tendrian que realizar durante 30 dias , pasado dicho tiempo la empresa no se hara cargo.</h4>
+                    <h1 class="titulo">Condiciones generales:</h1>
+                    <ul class="parrafo">
+                        <li><h4>Los sneakers tienen que estar en condiciones cual las enviamos</h4></li>
+                        <li><h4>Tienen que estar en su caja original</h4></li>
+                        <li><h4>Sin indicios de uso (sin marcas en la suela , ni alteraciones hechas por el cliente)</h4></li>
+                    </ul>
+            </section>
+            <!--Fin "reglas de devolucion"-->
+            <!--Inicio "formulario de devolucion"-->
+            <section class="formularioDos">
+                <from class="form">
+                    <fieldset>
+                        <legend><h1 class="titulo">Formulario de devolucion</h1></legend>
+                        <label for="nombre">
+                            Tu nombre
+                        </label>
+                        <input type="text" name="nombre"/>
+                        <hr />
+                        <label>
+                            Tu apellido
+                        </label>
+                        <input type="text" name="apellido"/>
+                        <hr />
+                        <select>
+                            <option selected="selected">Seleciona una localidad</option>
+                            <option>Capital Federal</option>
+                            <option>Merlo</option>
+                            <option>Moron</option>
+                            <option>Lujan</option>
+                            <option>Tigre</option>
+                        </select>
+                        <hr />
+                        <label>
+                            <strong>Motivo de devolucion</strong>
+                        </label>
+                        <br />
+                        <label>Producto recibido diferente al solicitado</label>
+                        <input type="radio" name="dest"/>
+                        <br />
+                        <label>No es el talle correcto</label>
+                        <input type="radio" name="dest"/>
+                        <br />
+                        <label>Tiene una falla o rotura</label>
+                        <input type="radio" name="dest"/>
+                        <hr />
+                        <label>
+                            Quiere cambiar su modelo?
+                        </label>
+                        <br />
+                        <label>Si</label>
+                        <input type="checkbox" name="aceptar"/>
+                        <label>No</label>
+                        <input type="checkbox" name="aceptar"/>
+                        <hr />
+                        <label>
+                            Comentanos lo ocurrido
+                        </label>
+                        <br />
+                        <textarea id="comentario" rows="10" cols="40"></textarea>
+                        <br />
+                        <input type="submit" value="Enviar"/>
+                        <input type="reset" value="Borrar"/>
+                    </fieldset>
+                </from>
+            </section>
+            <!--Fin "formulario de devolucion"-->
+            <footer class="footer fondo">
+                <h4>
+                    MUNDO SNEAKER®
+                </h4>
+                <ul>
+                    <li> <a href="https://es-la.facebook.com/"><img src="../assets/facebook-logo-3-1.png"/></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="../assets/Instagram-Logo-PNG-File.png"/></a></li>
+                </ul>       
+            </footer>
+        </section>
+    </body>
+</html>

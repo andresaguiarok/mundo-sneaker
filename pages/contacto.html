@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de contacto</title>
+        <!--icono de pagina-->
+        <link rel="icon" type="img" href="../assets/icono-m.png"/>
+        <!--hoja de estilo-->
+        <link rel="stylesheet" href="../styles/styles.css"/>
+        <!--tipografia-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+        <section class="grillaCinco">
+            <header class="header fondo">
+                <img src="../assets/logo-mundosneaker-png.png" class="logo"/>
+                <nav class="nav fondo">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li> 
+                        <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                        <li><a href="../pages/novedades.html">Novedades</a></li>
+                        <li><a href="../pages/galeria.html">Galeria</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                        <li><a href="../pages/devolucion.html">Devolucion</a></li>
+                        <li><a href="../pages/stock.html">Stock</a></li>
+                    </ul>
+                    </nav>
+            </header>
+            <!--Inicio de Formulario-->
+            <section class="formulario">
+                <form class="form">
+                    <fieldset>
+                        <legend><h1 class="titulo">Formulario de contacto</h1></legend>
+                        <label for="nombre">
+                            Tu nombre
+                        </label>
+                        <input type="text" id="nombre">
+                        <hr />
+                        <label for="apellido">
+                            Tu apellido
+                        </label>
+                        <input type="text" id="apellido">
+                        <hr />
+                        <select>
+                            <option selected="selected">Selecciona una localidad</option>
+                            <option>Capital Federal</option>
+                            <option>Merlo</option>
+                            <option>Moron</option>
+                            <option>Tigre</option>
+                            <option>Lujan</option>
+                        </select>
+                        <hr />
+                        <label> Para quien es? </label>
+                        <br />
+                        <label> Para mi </label>
+                        <input type="radio" name="destino" />
+                        <label> Para regalar</label>
+                        <input type="radio" name="destino" />
+                        <label>Para revender</label>
+                        <input type="radio" name="destino" />
+                        <hr />
+                        <label>
+                            Queres recibir informacion sobre nuestros productos?
+                        </label>
+                        <br />
+                        <label>Si</label>
+                        <input type="checkbox" name="comentarios"/>
+                        <label>Acepto todos los terminos y condiciones</label>
+                        <input type="checkbox" checked="checked" name="comentarios"/>
+                        <hr />
+                        <label>
+                            Deja tu comentario
+                        </label>
+                        <br />
+                        <textarea id="comentarios" rows="10" cols="40"></textarea>
+                        <br />
+                        <input type="submit"/>
+                        <input type="reset"/>
+                    </fieldset>
+                </form>
+            </section>
+            <!--Fin del Formulario-->
+            <footer class="footer fondo">
+                <h4>
+                    MUNDO SNEAKER®
+                </h4>
+                <ul>
+                    <li> <a href="https://es-la.facebook.com/"><img src="../assets/facebook-logo-3-1.png"/></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="../assets/Instagram-Logo-PNG-File.png"/></a></li>
+                </ul>       
+            </footer>
+        </section>
+    </body>
+</html>
