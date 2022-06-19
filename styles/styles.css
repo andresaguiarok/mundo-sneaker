@@ -93,7 +93,7 @@
     font-size: 40px; 
     text-decoration: underline;
 
-    background-color: #ff4d00f8;
+    background-image: linear-gradient(to right, #ff4e00f8 , #ffffff);
     width: 300px;
 }
 
