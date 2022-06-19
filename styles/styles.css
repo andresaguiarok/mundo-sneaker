@@ -33,6 +33,7 @@
 
 .menu li :hover {
     color: rgb(255, 250, 250);
+    border-radius: 10px;
     background-color: #bd3900a6;
 }
 
