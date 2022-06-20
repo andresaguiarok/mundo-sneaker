@@ -120,7 +120,6 @@
 
 .novedadesUno  {
     grid-area: novedadesUno;
-    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,7 +128,6 @@
 
 .novedadesDos {
     grid-area: novedadesDos;
-    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
