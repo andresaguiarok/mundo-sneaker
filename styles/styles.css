@@ -185,20 +185,8 @@
     margin-left: 50px;
 }
 
-.formulario {
-    grid-area: formulario;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.formulario .form {
-    width: 500px;
-    height: 800px;
-
-    font-size: 30px;
+.formulario{
+    height: auto;
 }
 
 .devolucion {
