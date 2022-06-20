@@ -152,7 +152,6 @@
 }
 
 .nosotros {
-    margin-top: 20px;
     grid-area: nosotros;
     display: flex;
     flex-direction: column;
@@ -161,7 +160,6 @@
 }
 
 .enviosPagos {
-    margin-top: 20px;
     grid-area: enviosPagos;
     display: flex;
     flex-direction: column;
