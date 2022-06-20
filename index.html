@@ -18,10 +18,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet"/>
     </head>
     <body>
-        <section class="grilla">
-            <header class="header">
+        <section class="grill">
+            <header class="header container-fluid col-12 col-sm-12 col-md-12 ">
                 <!--Inicio de nav-->
-                <nav class="navbar navbar-expand-lg bg-light fondo">
+                <nav class="navbar navbar-expand-lg bg-light fondo row">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#"><img src="./assets/logo-mundosneaker-png.png"/></a>
                       <button class="navbar-toggler btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,42 +57,41 @@
                   </nav>
                 <!--Fin del nav-->
             </header>
-            <!--inicio de producto destacado-->
-            <div class="productos">
-                <!--inicio de titulo-->
-                <h1 class="titulo">
-                    PRODUCTO DESTACADO DEL MES
-                </h1>
-                <!--Fin del titulo-->
-                <!--Inicio del subtitulo-->
-                <h4 class="subtitulo">Jordan retro 6 (Infrared)</h4>
-                <!--Fin del subtitulo-->
-                <!--Inicio de imagen-->
-                <img src="./assets/jordan-retro-6-infrared.jpg" title="Jordan retro 6 Infrared"/>
-                <!--Fin de imagen--> 
-                <!--Inicio de parrafo-->
-                <P class="parrafo">Michael Jordan utilizó el Air Jordan 6 "Infrared" en el All Star Game de la NBA de 1991 y ahora este regresa en su forma original por primera vez desde el año 2000. De nuevo con la marca Nike Air en el talón, el estilo luce una entresuela esculpida para brindar estabilidad acolchada, con revestimientos que representan el número 23 de forma abstracta.</P>
-                <!--Fin de parrafo-->
-            </div>
-                <!--fin de producto destacado-->
-                <!--inicio de linea-->
-               <!--fin de linea--> 
-               <aside class="coder">
-                <h1 class="titulo">Aprende con Coder</h1>
-                <p class="parrafo">A un click de despegar a un mundo nuevo</p>
-                <a href="https://www.coderhouse.com"><img src="./assets/logo_coderhouse_2_bmqbet.png"/></a>
-            </aside>
-               <!-- inicio de footer-->
-            <footer class="footer fondo">
+            <section class="container-fluid">
+                <article class="row">
+                    <article class="productos mt-3 col-sm-6 col-md-7 ">
+                        <h1 class="titulo">
+                            PRODUCTO DESTACADO DEL MES
+                        </h1>
+                        <h4 class="subtitulo">
+                            Jordan retro 6 (Infrared)
+                        </h4>
+                        <img src="./assets/jordan-retro-6-infrared.jpg" title="Jordan retro 6 Infrared" class="img-thumbnail"/> 
+                        <P class="parrafo">
+                            Michael Jordan utilizó el Air Jordan 6 "Infrared" en el All Star Game de la NBA de 1991 y ahora este regresa en su forma original por primera vez desde el año 2000. De nuevo con la marca Nike Air en el talón, el estilo luce una entresuela esculpida para brindar estabilidad acolchada, con revestimientos que representan el número 23 de forma abstracta.
+                        </P>
+                    </article>
+                    <aside class="justify-content-center col-sm-6 col-md-5  ">
+                        <div class="card justify-content-center m-auto mt-5 mb-2" style="width: 19rem;">
+                            <img src="../assets/logo_coderhouse_2_bmqbet.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-center text-bg-danger">APRENDE CON CODERHOUSE</h5>
+                              <p class="card-text text-center">A un click de despegar a un mundo nuevo</p>
+                              <a href="https://www.coderhouse.com" class="btn btn-outline-danger">Vamos </a>
+                            </div>
+                          </div>
+                    </aside>
+                </article>
+            </section>
+            <footer class="footer fondo container-fluid">
                 <h4>
                     MUNDO SNEAKER®
                 </h4>
                 <ul>
                     <li> <a href="https://es-la.facebook.com/"><img src="./assets/facebook-logo-3-1.png"/></a></li>
                     <li><a href="https://www.instagram.com/"><img src="./assets/Instagram-Logo-PNG-File.png"/></a></li>
-                </ul>       
+                </ul> 
             </footer>
-               <!--Fin del footer-->
         </section>
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
