@@ -229,19 +229,12 @@
 }
 
 .stock {
-    margin-top: 40px;
     grid-area: stock;
-}
-
-.stock .tabla {
-    margin: 5px;
-    padding: 20px;
 }
 
 .tabla table td {
     height: 60px;
-    width: 100px;
-
+    width: 150px;
     font-size: 30px;
 }
 
