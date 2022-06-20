@@ -202,14 +202,6 @@
 
 .formularioDos {
     grid-area: formularioDos;
-    margin-top: 30px;
-    width: 500px;
-    height: 800px;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .stock {
@@ -294,8 +286,8 @@
     grid-template-rows: auto auto auto;
     grid-template-areas: 
     "header header header header"
-    "devolucion devolucion formularioDos formularioDos"
-    "devolucion devolucion formularioDos formularioDos" 
+    "devolucion formularioDos formularioDos formularioDos"
+    "devolucion formularioDos formularioDos formularioDos" 
     "footer footer footer footer";
     height: auto;
     gap: 30px;

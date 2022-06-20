@@ -16,8 +16,9 @@
        <link rel="preconnect" href="https://fonts.googleapis.com">
        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet"/>
+    </head>
     <body>
-        <section class="grillaSeis">
+        <section>
             <header class="header">
                 <nav class="navbar navbar-expand-lg bg-light fondo">
                     <div class="container-fluid">
@@ -54,76 +55,92 @@
                     </div>
                 </nav> 
             </header>
-             <!--Inicio "reglas de devolucion"-->
-             <section class="devolucion" >
-                <h1 class="titulo">Devoluciones</h1>
-                    <h4 class="parrafo">Las devoluciones se tendrian que realizar durante 30 dias , pasado dicho tiempo la empresa no se hara cargo.</h4>
-                    <h1 class="titulo">Condiciones generales:</h1>
-                    <ul class="parrafo">
-                        <li><h4>Los sneakers tienen que estar en condiciones cual las enviamos</h4></li>
-                        <li><h4>Tienen que estar en su caja original</h4></li>
-                        <li><h4>Sin indicios de uso (sin marcas en la suela , ni alteraciones hechas por el cliente)</h4></li>
-                    </ul>
+            <section class="container-fluid">
+              <article class="row">
+                <section class="devolucion mt-5 col-md-6" >
+                    <h1 class="titulo">Devoluciones</h1>
+                      <h4 class="parrafo">Las devoluciones se tendrian que realizar durante 30 dias , pasado dicho tiempo la empresa no se hara cargo.</h4>
+                      <h1 class="titulo">Condiciones generales:</h1>
+                      <ul class="parrafo">
+                          <li><h4>Los sneakers tienen que estar en condiciones cual las enviamos</h4></li>
+                          <li><h4>Tienen que estar en su caja original</h4></li>
+                          <li><h4>Sin indicios de uso (sin marcas en la suela , ni alteraciones hechas por el cliente)</h4></li>
+                      </ul>
+                </section>
+                <section class="col-md-6">
+                 <h1 class="titulo mt-5">Formulario de devolucion</h1>
+                 <fieldset>
+                  <form class="row g-3 mt-3 mb-5">
+                    <div class="col-md-6">
+                      <label for="inputlabel" class="form-label">Nombre</label>
+                      <input type="label" class="form-control" id="inputlabel">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputlabel" class="form-label">Apellido</label>
+                      <input type="label" class="form-control" id="inputlabel">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Direccion</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Av. Libertador 1500">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputEmail" class="form-label">Email</label>
+                      <input type="text" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputState" class="form-label">Seleccione una localidad</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Capital Federal</option>
+                        <option>Merlo</option>
+                        <option>Moron</option>
+                        <option>Tigre</option>
+                        <option>Lujan</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label>
+                        <h4>Motivo de devolucion</h4>
+                    </label>
+                    <br />
+                    <label>Producto recibido diferente al solicitado</label>
+                    <input type="radio" name="dest"/>
+                    <br />
+                    <label>No es el talle correcto</label>
+                    <input type="radio" name="dest"/>
+                    <br />
+                    <label>Tiene una falla o rotura</label>
+                    <input type="radio" name="dest"/>
+                    <hr />
+                    </div>
+                    <div class="col-6">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Recibir info de nuestros productos
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Acepto todos los terminos y condiciones
+                        </label>
+                      </div>
+                    </div>
+                    <div>
+                      <label for="exampleFormControlTextarea1" class="form-label">Comentanos tu motivo</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                      <button type="reset"  class="btn btn-outline-danger">Borrar</button>
+                    </div>
+                  </form>
+                </fieldset>
+              </section>
+              </article>
             </section>
-            <!--Fin "reglas de devolucion"-->
-            <!--Inicio "formulario de devolucion"-->
-            <section class="formularioDos">
-                <from class="form">
-                    <fieldset>
-                        <legend><h1 class="titulo">Formulario de devolucion</h1></legend>
-                        <label for="nombre">
-                            Tu nombre
-                        </label>
-                        <input type="text" name="nombre"/>
-                        <hr />
-                        <label>
-                            Tu apellido
-                        </label>
-                        <input type="text" name="apellido"/>
-                        <hr />
-                        <select>
-                            <option selected="selected">Seleciona una localidad</option>
-                            <option>Capital Federal</option>
-                            <option>Merlo</option>
-                            <option>Moron</option>
-                            <option>Lujan</option>
-                            <option>Tigre</option>
-                        </select>
-                        <hr />
-                        <label>
-                            <strong>Motivo de devolucion</strong>
-                        </label>
-                        <br />
-                        <label>Producto recibido diferente al solicitado</label>
-                        <input type="radio" name="dest"/>
-                        <br />
-                        <label>No es el talle correcto</label>
-                        <input type="radio" name="dest"/>
-                        <br />
-                        <label>Tiene una falla o rotura</label>
-                        <input type="radio" name="dest"/>
-                        <hr />
-                        <label>
-                            Quiere cambiar su modelo?
-                        </label>
-                        <br />
-                        <label>Si</label>
-                        <input type="checkbox" name="aceptar"/>
-                        <label>No</label>
-                        <input type="checkbox" name="aceptar"/>
-                        <hr />
-                        <label>
-                            Comentanos lo ocurrido
-                        </label>
-                        <br />
-                        <textarea id="comentario" rows="10" cols="40"></textarea>
-                        <br />
-                        <input type="submit" value="Enviar"/>
-                        <input type="reset" value="Borrar"/>
-                    </fieldset>
-                </from>
-            </section>
-            <!--Fin "formulario de devolucion"-->
             <footer class="footer fondo">
                 <h4>
                     MUNDO SNEAKER®
