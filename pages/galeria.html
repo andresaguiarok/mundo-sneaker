@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <section class="grillaCuatro">
+    <section class="grillaCuatr">
         <header class="header">
             <nav class="navbar navbar-expand-lg bg-light fondo">
                 <div class="container-fluid">
@@ -56,39 +56,71 @@
             </nav> 
         </header>
         <!--Inicio "galeria"-->
-        <section class="modelosUno">
-            <h1 class="titulo">
-                Modelos:
-            </h1>
-            <h3 class="subtitulo">
-                Nike air force 1 NBA
-            </h3>
-            <img src="../assets/nike-af1-nba-red.jpg"/>
-            <h3 class="subtitulo" >
-                Jordan retro 6 (infrared)
-            </h3>
-            <img src="../assets/jordan-retro-6-infrared.jpg"/>
-            <h3 class="subtitulo" >
-                Adidas Superstar "El barto"
-            </h3>
-            <img src="../assets/Adidas-Superstar.jpg"/>
-        </section>
-        <section class="modelosDos">
-            <h3 class="subtitulo" >
+        <section class="container-fluid">
+          <h1 class="titulo">Modelos</h1>
+          <article class="row">
+            <article class="col-sm-6 col-md-8">
+              <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/nike-af1-nba-red.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nike air force 1 NBA</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/jordan-retro-6-infrared.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Jordan retro 6 (infrared)</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/nike-x-travis-scott-low-og.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nike x Travis Scott og</h5>
+                    </div>
+                  </div>
+                 </div>
+                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                 </button>
+                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                 </button>
+                </div>
+                <section class="container-fluid m-2">
+                  <h3 class="subtitulo col-sm-12 col-md-12">
+                    Jordan animal instinct II
+                  </h3>
+                  <img src="../assets/jordan-animal-instinct-II.jpg" class="img-thumbnail m-4">
+                  <img src="../assets/jordan-3-instinto-animal.jpg" class="img-thumbnail m-4">
+                </section>
+            </article>
+            <div class="mb-3 col-sm-6 col-md-4">
+              <h3 class="subtitulo m-2" >
                 Yeezy 350 v2 "Black"
-            </h3>
-            <img src="../assets/yeezy-350-v2-black.jpg"/>
-            <h3 class="subtitulo">
+              </h3>
+             <img src="../assets/yeezy-350-v2-black.jpg" class="img-thumbnail"/>
+              <h3 class="subtitulo m-2">
                 Jordan retro 4 "Bred"
-            </h3>
-            <img src="../assets/jordan-retro-4-bred.jpg"/>
-            <h3 class="subtitulo">
+              </h3>
+             <img src="../assets/jordan-retro-4-bred.jpg" class="img-thumbnail"/>
+              <h3 class="subtitulo m-2">
                 Nike air Jordan retro 1 high OG
-            </h3>
-            <img src="../assets/Nike-air-Jordan-1-retro-high-og.jpg"/>
+              </h3>
+             <img src="../assets/Nike-air-Jordan-1-retro-high-og.jpg" class="img-thumbnail"/>
+            </div>
+          </article>
         </section>
         <!--Fin "galeria"-->
-        <footer class="footer fondo">
+        <footer class="footer fondo container-fluid">
             <h4>
                 MUNDO SNEAKER®
             </h4>

@@ -81,17 +81,17 @@
     text-decoration: underline;
 
     background-image: linear-gradient(to right, #ff4e00f8 , #ffffff38);
-    width: 300px;
+    width: auto;
 }
 
 .subtitulo {
-    margin: 30px;
+    margin: 10px;
     font-size: 30px;
     text-decoration: underline;
     display: block;
 
     background-color: #ff4d0093;
-    width: 300px;
+    width: auto;
 }
 
 .parrafo {
@@ -185,37 +185,6 @@
 
 .mediosDePago ul li {
     margin-left: 50px;
-}
-
-.modelosUno {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.modelosDos {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.modelosUno img {
-    grid-area: modelosUnos;
-    height: 400px;
-    width: 400px;
-    border-radius: 30px;
-
-}
-
-.modelosDos img {
-    grid-area: modelosDos;
-    height: 400px;
-    width: 400px;
-    border-radius: 30px;
 }
 
 .formulario {
