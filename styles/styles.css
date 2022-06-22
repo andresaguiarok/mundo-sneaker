@@ -39,26 +39,25 @@
 
 .footer {
     grid-area: footer;
-    height: 200px;
+    height: 170px;
+    width: auto;
     display: flex;
     flex-direction: column;
     flex-flow: row nowrap;
     justify-content: space-between;
-    justify-items: center;
+    justify-items: flex;
     align-items: flex-end;
 }
 
-.footer h4 {
-    margin-top: 20px;
-    font-size: 80px;
-    color :rgb(255, 30, 0) ;
+.footerLogo {
+    width: 250px;
 }
 
 .footer ul li {
     list-style: none;
 }
 
-.footer img {
+.footer .iconos img {
     margin: 10px ;
     width: 40px;
     height: 40px;
@@ -83,12 +82,20 @@
     width: auto;
 }
 
+.tituloDos {
+    font-size: 40px; 
+    text-decoration: underline;
+
+    background-image: linear-gradient(to right,#ffffff38, #ff4e00f8 , #ff4e00f8 , #ffffff38);
+    width: auto;
+}
+
 .subtitulo {
     font-size: 30px;
     text-decoration: underline;
     display: block;
 
-    background-color: #ff4d0093;
+    background-color: #ff4d0081;
     width: auto;
 }
 
@@ -100,14 +107,9 @@
 .productos {
     grid-area: producto;
     
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
 }
 
-.productos img {
+.productos .imgagen {
     margin: 10px;
     width: 400px;
     height: 400px;
@@ -115,6 +117,7 @@
 }
 
 .coder {
+    width: auto;
     grid-area: coder;
 }
 
