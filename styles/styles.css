@@ -137,15 +137,8 @@
     align-items: center;
 }
 
-.novedadesUno img {
+.novedades img {
     grid-area: novedades;
-    margin: 5px;
-    width: 400px;
-    height: 400px;
-    border-radius: 80px;
-}
-
-.novedadesDos img {
     margin: 5px;
     width: 400px;
     height: 400px;
@@ -182,6 +175,19 @@
 
 .mediosDePago ul li {
     margin-left: 50px;
+}
+
+.jordanAnimal img {
+    width: 186px;
+}
+
+.jordanAnimal img:hover {
+    width: 220px;
+    height: 220px;
+}
+
+.galeria img:hover {
+    background-color: #ff4e00f8;
 }
 
 .formulario{
