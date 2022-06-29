@@ -1,5 +1,5 @@
 .fondo {
-    background-image: url("/assets/fondo-imagen.jpg");
+    background-image: url("../../assets/fondo-imagen.jpg");
     background-repeat: repeat-x repeat-y ;
 }
 
@@ -11,17 +11,17 @@
 }
 
 .menu {
-    font-size: 20px;
+    font-size: $fontVeinte;
 
     a {
     padding: 10px;
-    color: #ffffff;
+    color: $colorBlanco;
     }
 
     li :hover {
-        color: #ffffff;
+        color: $colorBlanco;
         border-radius: 10px;
-        background-color:#bd3900a6 ;
+        background-color:$colorHover;
     }
 }
 
