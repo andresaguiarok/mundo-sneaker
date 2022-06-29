@@ -1,0 +1,29 @@
+.titulo {
+    font-size: $fontCuarenta; 
+    text-decoration: underline;
+
+    background-image: linear-gradient(to right, $color-naranja , $colorDesvanecido);
+    width: auto;
+}
+
+.tituloDos {
+    font-size: $fontCuarenta; 
+    text-decoration: underline;
+
+    background-image: linear-gradient(to right, $colorDesvanecido, $color-naranja ,$color-naranja , $colorDesvanecido);
+    width: auto;
+}
+
+.subtitulo {
+    font-size: $fontTreinta;
+    text-decoration: underline;
+    display: block;
+
+    background-color: $colorSubtitulo;
+    width: auto;
+}
+
+.parrafo {
+    margin: 20px;
+    font-size: $fontTreinta;
+}
