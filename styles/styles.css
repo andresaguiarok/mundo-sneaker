@@ -14,12 +14,6 @@
     grid-area: header;
     width: 100%;
     height: 100px;
-    
-}
-
-.logo {
-    margin: 10px;
-    margin-left: 20px;
 }
 
 .menu {
@@ -27,13 +21,13 @@
 }
 
 .menu a {
-    margin: 5px;
+    padding: 10px;
     color: rgb(255, 255, 255);
 }
 
 .menu li :hover {
-    color: rgb(255, 250, 250);
-    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
     background-color: #bd3900a6;
 }
 
@@ -109,7 +103,7 @@
     
 }
 
-.productos .imgagen {
+.productos .imagen {
     margin: 10px;
     width: 400px;
     height: 400px;

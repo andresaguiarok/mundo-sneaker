@@ -1,0 +1,36 @@
+.nosotros {
+    grid-area: nosotros;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+}
+
+.enviosPagos {
+    grid-area: enviosPagos;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: center;
+}
+
+.envios ul li {
+    margin-left: 30px;
+    list-style: none;
+    font-size: $fontTreinta;
+}
+
+.mediosDePago {
+    ol li {
+    margin-left: 20px;
+    list-style: none;
+    font-size: $fontTreinta;
+    }
+    
+    ul li {
+    margin-left: 50px;
+    }
+}
+
+
+

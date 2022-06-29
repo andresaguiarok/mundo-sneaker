@@ -1,0 +1,9 @@
+.stock {
+    grid-area: stock;
+
+    .tabla table td {
+    height: 60px;
+    width: 150px;
+    font-size: $fontTreinta;
+    }
+}
