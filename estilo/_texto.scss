@@ -2,7 +2,7 @@
     font-size: 40px; 
     text-decoration: underline;
 
-    background-image: linear-gradient(to right, #ff4e00f8 , #ffffff38);
+    background-image: linear-gradient(to right, $colorNaranja , $colorDesvanecido);
     width: auto;
 }
 
@@ -10,7 +10,7 @@
     font-size: 40px; 
     text-decoration: underline;
 
-    background-image: linear-gradient(to right,#ffffff38, #ff4e00f8 , #ff4e00f8 , #ffffff38);
+    background-image: linear-gradient(to right, $colorDesvanecido, $colorNaranja , $colorNaranja , $colorDesvanecido);
     width: auto;
 }
 
@@ -19,7 +19,7 @@
     text-decoration: underline;
     display: block;
 
-    background-color: #ff4d0081;
+    background-color: $colorSubtitulo;
     width: auto;
 }
 
