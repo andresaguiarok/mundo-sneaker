@@ -11,17 +11,17 @@
 }
 
 .menu {
-    font-size: $fontVeinte;
+    font-size: 20px;
 
     a {
     padding: 10px;
-    color: $colorBlanco;
+    color: #ffffff;
     }
 
     li :hover {
-        color: ¿$colorBlanco;
+        color: #ffffff;
         border-radius: 10px;
-        background-color: $colorHover;
+        background-color:#bd3900a6 ;
     }
 }
 

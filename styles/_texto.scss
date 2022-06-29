@@ -1,29 +1,29 @@
 .titulo {
-    font-size: $fontCuarenta; 
+    font-size: 40px; 
     text-decoration: underline;
 
-    background-image: linear-gradient(to right, $colorNaranja, $colorDesvanecido);
+    background-image: linear-gradient(to right, #ff4e00f8 ,#ffffff38 );
     width: auto;
 }
 
 .tituloDos {
-    font-size: $fontCuarenta; 
+    font-size: 40px; 
     text-decoration: underline;
 
-    background-image: linear-gradient(to right, $colorDesvanecido, $colorNaranja , $colorNaranja, $colorDesvanecido);
+    background-image: linear-gradient(to right, #ffffff38, #ff4e00f8 ,#ff4e00f8 , #ffffff38);
     width: auto;
 }
 
 .subtitulo {
-    font-size: $fontTreinta;
+    font-size: 30px;
     text-decoration: underline;
     display: block;
 
-    background-color: $colorSubtitulo;
+    background-color: #ff4d0081;
     width: auto;
 }
 
 .parrafo {
     margin: 20px;
-    font-size: $fontTreinta;
+    font-size: 30px;
 }
