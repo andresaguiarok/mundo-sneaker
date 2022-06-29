@@ -92,10 +92,10 @@
 .productos {
   grid-area: producto;
 }
-.productos .imgagen {
+.productos .imagen {
   margin: 10px;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   border-radius: 300px;
 }
 
