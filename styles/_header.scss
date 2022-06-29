@@ -1,0 +1,30 @@
+.fondo {
+    background-image: url(../assets/fondo-imagen.jpg);
+    background-repeat: repeat-x repeat-y ;
+}
+
+.header {
+    grid-area: header;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.menu {
+    font-size: 20px;
+
+    a {
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    }
+
+    li :hover {
+        color: rgb(255, 255, 255);
+        border-radius: 12px;
+        background-color: #bd3900a6;
+    }
+}
+
+
+
+ 
