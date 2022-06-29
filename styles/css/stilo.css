@@ -1,9 +1,10 @@
 /* Error: expected "{".
  *   ,
- * 3 | @import "./reset";
- *   |                  ^
+ * 2 | $colorTitulo : #ff4e00f8;
+ *   |                         ^
  *   '
- *   styles\stilo.scss 3:18  root stylesheet */
+ *   styles\_colores.scss 2:25  @import
+ *   styles\stilo.scss 2:9      root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 3 \2502  @import "./reset";\d\a   \2502                   ^\a   \2575 \a   styles\\stilo.scss 3:18  root stylesheet';
+  content: 'Error: expected "{".\a   \2577 \a 2 \2502  $colorTitulo : #ff4e00f8;\d\a   \2502                          ^\a   \2575 \a   styles\\_colores.scss 2:25  @import\a   styles\\stilo.scss 2:9      root stylesheet';
 }
