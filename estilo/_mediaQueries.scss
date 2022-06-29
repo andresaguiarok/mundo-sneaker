@@ -1,0 +1,94 @@
+@media screen and (max-width: 640px) {
+    .grilla {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header"
+        "producto"
+        "coder"
+        "footer";
+    }
+
+    .header .nav {
+        width:auto ;
+        height: 90px;
+        display: flex ;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    } 
+
+    .nav ul {
+        display: block;
+        height: auto;
+        padding: 5px;
+        list-style: none;
+        text-align: center;
+    }
+    
+    .productos {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .nosotros  {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grillaDos {
+       grid-template-columns: auto;
+       grid-template-areas: 
+       "header"
+       "novedadesUno"
+       "novedadesDos"
+       "footer";
+    }
+
+    .grillaTres {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header"
+        "nosotros"
+        "enviosPagos"
+        "footer";
+    }
+
+    .grillaCuatro {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header"
+        "modelosUno"
+        "modelosDos"
+        "footer";
+    }
+
+    .grillaCinco {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header"
+        "formulario"
+        "footer";
+    }
+
+    .grillaSeis {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header"
+        "devolucion"
+        "formularioDos"
+        "footer";
+    }
+
+    .grillaSiete {
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "header"
+        "stock"
+        "footer";
+    }
+}

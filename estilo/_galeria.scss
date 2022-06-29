@@ -1,0 +1,12 @@
+.jordanAnimal img {
+    width: 186px;
+
+    &:hover {
+    width: 220px;
+    height: 220px;
+    }
+}
+
+.galeria img:hover {
+    background-color: #ff4e00f8;
+}

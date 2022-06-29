@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Akshar", sans-serif;
+}
+
+.fondo {
+  background-image: url(../../assets/fondo-imagen.jpg);
+  background-repeat: repeat-x repeat-y;
+}
+
+.header {
+  grid-area: header;
+  width: 100%;
+  height: 100px;
+}
+
+.menu {
+  font-size: 20px;
+}
+.menu a {
+  margin: 5px;
+  color: rgb(255, 255, 255);
+}
+.menu li :hover {
+  color: rgb(255, 250, 250);
+  border-radius: 12px;
+  background-color: rgba(189, 57, 0, 0.6509803922);
+}
+
+.footer {
+  grid-area: footer;
+  height: 170px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  justify-items: flex;
+  align-items: flex-end;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer .iconos img {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  animation-name: aparecer;
+  animation-duration: 2s;
+}
+
+.footerLogo {
+  width: 250px;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.titulo {
+  font-size: 40px;
+  text-decoration: underline;
+  background-image: linear-gradient(to right, rgba(255, 78, 0, 0.9725490196), rgba(255, 255, 255, 0.2196078431));
+  width: auto;
+}
+
+.tituloDos {
+  font-size: 40px;
+  text-decoration: underline;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2196078431), rgba(255, 78, 0, 0.9725490196), rgba(255, 78, 0, 0.9725490196), rgba(255, 255, 255, 0.2196078431));
+  width: auto;
+}
+
+.subtitulo {
+  font-size: 30px;
+  text-decoration: underline;
+  display: block;
+  background-color: rgba(255, 77, 0, 0.5058823529);
+  width: auto;
+}
+
+.parrafo {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.productos {
+  grid-area: producto;
+}
+.productos .imgagen {
+  margin: 10px;
+  width: 400px;
+  height: 400px;
+  border-radius: 300px;
+}
+
+.coder {
+  width: auto;
+  grid-area: coder;
+}
+
+.novedades img {
+  grid-area: novedades;
+  margin: 5px;
+  width: 400px;
+  height: 400px;
+  border-radius: 80px;
+}
+
+.nosotros {
+  grid-area: nosotros;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: center;
+}
+
+.enviosPagos {
+  grid-area: enviosPagos;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: center;
+}
+
+.envios ul li {
+  margin-left: 30px;
+  list-style: none;
+  font-size: 30px;
+}
+
+.mediosDePago ol li {
+  margin-left: 20px;
+  list-style: none;
+  font-size: 30px;
+}
+.mediosDePago ul li {
+  margin-left: 50px;
+}
+
+.jordanAnimal img {
+  width: 186px;
+}
+.jordanAnimal img:hover {
+  width: 220px;
+  height: 220px;
+}
+
+.galeria img:hover {
+  background-color: rgba(255, 78, 0, 0.9725490196);
+}
+
+.formulario {
+  height: auto;
+}
+
+.devolucion {
+  grid-area: devolucion;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.devolucion ul {
+  list-style: none;
+}
+
+.stock {
+  grid-area: stock;
+}
+
+.tabla table td {
+  height: 60px;
+  width: 150px;
+  font-size: 30px;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: 50% auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "header header header header" "producto producto coder coder" "producto producto coder coder" "footer footer footer footer";
+  gap: 30px;
+  height: auto;
+}
+
+.grillaDos {
+  display: grid;
+  grid-template-columns: 33% auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "header header header header" "novedadesUno novedadesUno novedadesDos  novedadesDos" "novedadesUno novedadesUno novedadesDos  novedadesDos" "footer footer footer footer ";
+  height: auto;
+  gap: 30px;
+}
+
+.grillaTres {
+  display: grid;
+  grid-template-columns: 20% auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "header header header header" "nosotros nosotros enviosPagos enviosPagos" "nosotros nosotros enviosPagos enviosPagos" "footer footer footer footer";
+  height: auto;
+  gap: 30px;
+}
+
+.grillaCuatro {
+  display: grid;
+  grid-template-columns: 50% auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "header header header header" "modelosUno modelosUno modelosDos modelosDos" "modelosUno modelosUno modelosDos modelosDos" "footer footer footer footer";
+  width: 100%;
+  height: auto;
+  gap: 30px;
+}
+
+.grillaCinco {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "header header header header" "formulario formulario formulario formulario" "formulario formulario formulario formulario" "footer footer footer footer";
+  height: 100%;
+  gap: 30px;
+}
+
+.grillaSeis {
+  display: grid;
+  grid-template-columns: 50% auto auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "header header header header" "devolucion formularioDos formularioDos formularioDos" "devolucion formularioDos formularioDos formularioDos" "footer footer footer footer";
+  height: auto;
+  gap: 30px;
+}
+
+.grillaSiete {
+  display: grid;
+  grid-template-columns: 50% auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "header header header header" "stock stock stock stock" "footer footer footer footer";
+  height: auto;
+  gap: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .grilla {
+    grid-template-columns: auto;
+    grid-template-areas: "header" "producto" "coder" "footer";
+  }
+  .header .nav {
+    width: auto;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .nav ul {
+    display: block;
+    height: auto;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+  }
+  .productos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nosotros {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grillaDos {
+    grid-template-columns: auto;
+    grid-template-areas: "header" "novedadesUno" "novedadesDos" "footer";
+  }
+  .grillaTres {
+    grid-template-columns: auto;
+    grid-template-areas: "header" "nosotros" "enviosPagos" "footer";
+  }
+  .grillaCuatro {
+    grid-template-columns: auto;
+    grid-template-areas: "header" "modelosUno" "modelosDos" "footer";
+  }
+  .grillaCinco {
+    grid-template-columns: auto;
+    grid-template-areas: "header" "formulario" "footer";
+  }
+  .grillaSeis {
+    grid-template-columns: auto;
+    grid-template-areas: "header" "devolucion" "formularioDos" "footer";
+  }
+  .grillaSiete {
+    grid-template-columns: auto;
+    grid-template-areas: "header" "stock" "footer";
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

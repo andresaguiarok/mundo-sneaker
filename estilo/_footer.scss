@@ -1,0 +1,36 @@
+.footer {
+    grid-area: footer;
+    height: 170px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    justify-items: flex;
+    align-items: flex-end;
+
+    ul li {
+    list-style: none;
+    }
+
+    .iconos img {
+    margin: 10px ;
+    width: 40px;
+    height: 40px;
+    animation-name: aparecer;
+    animation-duration: 2s;
+    }
+}
+
+.footerLogo {
+    width: 250px;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
