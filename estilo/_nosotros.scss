@@ -1,17 +1,18 @@
-.nosotros {
-    grid-area: nosotros;
+@mixin displayFlex {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    justify-items: center;
+    justify-items: center; 
+}
+
+.nosotros {
+    grid-area: nosotros;
+    @include displayFlex();
 }
 
 .enviosPagos {
     grid-area: enviosPagos;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    justify-items: center;
+    @include displayFlex();
 }
 
 .envios ul li {
