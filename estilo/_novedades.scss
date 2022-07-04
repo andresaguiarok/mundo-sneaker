@@ -1,7 +1,14 @@
+$estilo : (
+   margin: 5px,
+   ancho : 400px,
+   alto : 400px,
+   borderRadius : 80px, 
+);
+
 .novedades img {
     grid-area: novedades;
-    margin: 5px;
-    width: 400px;
-    height: 400px;
-    border-radius: 80px;
+    margin: map-get($estilo, margin );
+    width: map-get($estilo, ancho );
+    height: map-get($estilo, alto );
+    border-radius: map-get($estilo, borderRadius );
 }
