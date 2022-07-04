@@ -143,12 +143,13 @@
   margin-left: 50px;
 }
 
-.jordanAnimal img {
+.jordanAnimal, .jordanAnimalCuatro, .jordanAnimalTres, .jordanAnimalDos, .jordanAnimalUno {
   width: 186px;
 }
-.jordanAnimal img:hover {
-  width: 220px;
-  height: 220px;
+.jordanAnimal:hover, .jordanAnimalCuatro:hover, .jordanAnimalTres:hover, .jordanAnimalDos:hover, .jordanAnimalUno:hover {
+  width: 210px;
+  height: 210px;
+  border-radius: 100px;
 }
 
 .galeria img:hover {

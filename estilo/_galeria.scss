@@ -1,10 +1,27 @@
-.jordanAnimal img {
+.jordanAnimal {
     width: 186px;
 
     &:hover {
-    width: 220px;
-    height: 220px;
+    width: 210px;
+    height: 210px;
+    border-radius: 100px;
     }
+}
+
+.jordanAnimalUno {
+    @extend .jordanAnimal ;
+}
+
+.jordanAnimalDos{
+    @extend .jordanAnimal;
+}
+
+.jordanAnimalTres{
+    @extend .jordanAnimal;
+}
+
+.jordanAnimalCuatro{
+    @extend .jordanAnimal;
 }
 
 .galeria img:hover {
