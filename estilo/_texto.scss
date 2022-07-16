@@ -4,6 +4,8 @@
 
     background-image: linear-gradient(to right, $colorNaranja , $colorDesvanecido);
     width: auto;
+    border-radius: 10px;
+    padding-left: 5px;
 }
 
 .tituloDos {
@@ -21,6 +23,7 @@
 
     background-color: $colorSubtitulo;
     width: auto;
+    border-radius: 10px;
 }
 
 .parrafo {
