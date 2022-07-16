@@ -158,6 +158,9 @@
 
 .formulario {
   height: auto;
+  background-color: #fff1ea;
+  border-radius: 20px;
+  font-size: 20px;
 }
 
 .devolucion {
