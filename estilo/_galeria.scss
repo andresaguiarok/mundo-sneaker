@@ -1,29 +1,18 @@
-.jordanAnimal {
-    width: 186px;
-
-    &:hover {
-    width: 210px;
-    height: 210px;
-    border-radius: 100px;
-    }
+.galeria {
+    padding: 30px;
 }
 
-.jordanAnimalUno {
-    @extend .jordanAnimal ;
+.galeriaJordan {
+    @extend .galeria;
+    background-color: rgba(0, 0, 0, 0.333);
 }
 
-.jordanAnimalDos{
-    @extend .jordanAnimal;
+.galeriaNike {
+    @extend .galeria;
+    background-color: rgba(0, 0, 0, 0.555);
 }
 
-.jordanAnimalTres{
-    @extend .jordanAnimal;
-}
-
-.jordanAnimalCuatro{
-    @extend .jordanAnimal;
-}
-
-.galeria img:hover {
-    background-color: #ff4e00f8;
+.galeriaAdidas {
+    @extend .galeria;
+    background-color: rgba(0, 0, 0, 0.777);
 }
