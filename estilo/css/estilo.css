@@ -107,6 +107,13 @@
   grid-area: coder;
 }
 
+.local h1 {
+  width: auto;
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+}
+
 .novedades img {
   grid-area: novedades;
   margin: 5px;
