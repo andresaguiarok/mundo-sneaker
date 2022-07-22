@@ -148,18 +148,7 @@
 
 .galeria, .galeriaAdidas, .galeriaNike, .galeriaJordan {
   padding: 30px;
-}
-
-.galeriaJordan {
-  background-color: rgba(0, 0, 0, 0.333);
-}
-
-.galeriaNike {
-  background-color: rgba(0, 0, 0, 0.555);
-}
-
-.galeriaAdidas {
-  background-color: rgba(0, 0, 0, 0.777);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .formulario {

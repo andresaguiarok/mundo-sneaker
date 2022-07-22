@@ -1,18 +1,16 @@
 .galeria {
     padding: 30px;
+    background-color: rgba(255, 255, 255, 0.200);
 }
 
 .galeriaJordan {
     @extend .galeria;
-    background-color: rgba(0, 0, 0, 0.333);
 }
 
 .galeriaNike {
     @extend .galeria;
-    background-color: rgba(0, 0, 0, 0.555);
 }
 
 .galeriaAdidas {
     @extend .galeria;
-    background-color: rgba(0, 0, 0, 0.777);
 }
