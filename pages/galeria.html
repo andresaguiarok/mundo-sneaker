@@ -16,6 +16,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!--Pagina de estilos SASS-->
     <link rel="stylesheet" href="../styles/css/stilo.css"/>
+    <!--WOW animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--Tipografia de la pagina-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +26,9 @@
 <body class="fondo">
     <section>
         <header class="header">
-            <nav class="navbar navbar-expand-lg bg-light fondo">
+            <nav class="navbar navbar-expand-lg bg-light fondo sticky-bottom">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="../assets/logo-mundosneaker-png.png"/></a>
+                  <a class="navbar-brand" href="../index.html"><img src="../assets/logo-mundosneaker-png.png"/></a>
                   <button class="navbar-toggler btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon btn btn-danger"></span>
                   </button>
@@ -61,43 +63,51 @@
         </header>
         <!--Inicio "galeria"-->
         <section class="container-fluid">
-          <article class="row galeriaJordan">
-            <img src="../assets/jordanLogo.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/HD-wallpaper-nike-jordan-black-nba-red-shoes.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/jordanRetro3.jpg" class="col-md-4 rounded-5">
+          <article class="row galeriaJordan overflow-hidden">
+            <img src="../assets/jordanLogo.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-1s">
+            <img src="../assets/HD-wallpaper-nike-jordan-black-nba-red-shoes.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-2s">
+            <img src="../assets/jordanRetro3.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-3s">
           </article>
-          <article class="row galeriaJordan">
-            <img src="../assets/jordanRetro1_moca.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/jordanRetro3_2.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/jordanRetro4.jpg" class="col-md-4 rounded-5">
+          <article class="row galeriaJordan overflow-hidden">
+            <img src="../assets/jordanRetro1_moca.jpg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-3s">
+            <img src="../assets/jordanRetro3_2.jpg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-2s">
+            <img src="../assets/jordanRetro4.jpg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-1s">
           </article>
-          <article class="row galeriaNike">
-            <img src="../assets/nike.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/nike.1.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/nike.2.jpg" class="col-md-4 rounded-5">
+          <article class="row galeriaNike overflow-hidden">
+            <img src="../assets/nike.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-1s">
+            <img src="../assets/nike.1.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-2s">
+            <img src="../assets/nike.2.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-3s">
           </article>
-          <article class="row galeriaNike">
-            <img src="../assets/nike.3.jpeg" class="col-md-4 rounded-5">
-            <img src="../assets/nike.4.jpeg" class="col-md-4 rounded-5">
-            <img src="../assets/nike.5.jpg" class="col-md-4 rounded-5">
+          <article class="row galeriaNike overflow-hidden">
+            <img src="../assets/nike.3.jpeg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-3s">
+            <img src="../assets/nike.4.jpeg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-2s">
+            <img src="../assets/nike.5.jpg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-1s">
           </article>
-          <article class="row galeriaAdidas">
-            <img src="../assets/adidas..jpg" class="col-md-4 rounded-5">
-            <img src="../assets/adidas_7.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/adidas_6.jpg" class="col-md-4 rounded-5">
+          <article class="row galeriaAdidas overflow-hidden">
+            <img src="../assets/adidas..jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-1s">
+            <img src="../assets/adidas_7.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-2s">
+            <img src="../assets/adidas_6.jpg" class="col-md-4 rounded-5 animate__animated animate__backInRight animate__delay-3s">
           </article>
-          <article class="row galeriaAdidas">
-            <img src="../assets/adidas_5.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/adidas_4.jpg" class="col-md-4 rounded-5">
-            <img src="../assets/adidas_3.jpg" class="col-md-4 rounded-5">
+          <article class="row galeriaAdidas overflow-hidden">
+            <img src="../assets/adidas_5.jpg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-3s">
+            <img src="../assets/adidas_4.jpg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-2s">
+            <img src="../assets/adidas_3.jpg" class="col-md-4 rounded-5 animate__animated animate__backInLeft animate__delay-1s">
           </article>
         </section>
         <!--Fin "galeria"-->
         <footer class="footer fondo container-fluid g-3 mt-2">
           <img src="../assets/logo-mundosneaker-png.png" class="mb-5 img-fluid footerLogo">
           <ul class="iconos ">
-            <li> <a href="https://es-la.facebook.com/"><img src="../assets/facebook-logo-3-1.png" /></a></li>
-            <li><a href="https://www.instagram.com/"><img src="../assets/Instagram-Logo-PNG-File.png"/></a></li>
+            <li>
+              <a href="https://es-la.facebook.com/">
+                <img src="../assets/facebook-logo-3-1.png" alt="Seguinos"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <img src="../assets/Instagram-Logo-PNG-File.png"/>
+              </a>
+            </li>
           </ul> 
         </footer>
     </section>
